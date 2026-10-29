@@ -1,0 +1,335 @@
+{
+  "snapshot_date": "2026-10-29",
+  "scope": "Selected original modules and their transitive dependencies; not the complete application.",
+  "files": [
+    {
+      "path": "data/intake/recipes.json",
+      "sha256": "e88745fb7160eccda11f1b0fa51fd422af48f9733631de0881fce8366f243c70"
+    },
+    {
+      "path": "src/agent/contracts.ts",
+      "sha256": "fd1ea6ea15a02481863b82aa270e36fde8f15eadaf4d6fa7042ee5379a0745f5"
+    },
+    {
+      "path": "src/agent/state.ts",
+      "sha256": "ddbe72fa97e0cbbc6abb7f380621ff3da8e279114f8e7338cfd3d3c2b0eb6292"
+    },
+    {
+      "path": "src/agent/units.ts",
+      "sha256": "47f5c8f159c4093ccd6c65957e0c75e6a609d33d3eb3310ec8dc97829c060444"
+    },
+    {
+      "path": "src/alpha/contracts.ts",
+      "sha256": "8b40ae38302eb06591a7fc939dd1ad9355593896ae16007828c0006cc2c11d38"
+    },
+    {
+      "path": "src/alpha/reactions.ts",
+      "sha256": "46f5a63baba1b9f456ed2f6d93abb5ef69328ba214c26fc4fc5d0831a69c70e4"
+    },
+    {
+      "path": "src/companion/voiceComposer.ts",
+      "sha256": "a6b0d4d858a1203865e376546fc848cdb2a9e0fe12f7b52040e67775c6b052c1"
+    },
+    {
+      "path": "src/consumer/contracts.ts",
+      "sha256": "26d6461a8d842ba1c9dd4478d15da0c118dbebcbfd38c1d3444f33fdf9031c9a"
+    },
+    {
+      "path": "src/consumer/domain.ts",
+      "sha256": "76bd38eebee4d840f60fb5a00654d784b15fda2e2d1e8f412b354ad96e9ef2ff"
+    },
+    {
+      "path": "src/consumer/nightIdentity.ts",
+      "sha256": "4918080433d0bc211033cde69655006b3ee327c7bf0896b00694c6c31485d647"
+    },
+    {
+      "path": "src/consumer/sessionLifecycle.ts",
+      "sha256": "1912f2c15475a9c495eefa2092efeea48c556348123a479b95cc4600ca999a26"
+    },
+    {
+      "path": "src/consumer/visionContract.ts",
+      "sha256": "61cd3857efd8e6ea1293d202a407a3f73fc755b083048d775fabc170ff03a454"
+    },
+    {
+      "path": "src/content/adapt.ts",
+      "sha256": "d8d4beb5c6920b349bd6aad299c42668724cabb802a7b524741d71ecc0efb95c"
+    },
+    {
+      "path": "src/content/capability.ts",
+      "sha256": "22313e02fdec2b2580bf603c67553dc05df2342cb7010da61db79a35433906c7"
+    },
+    {
+      "path": "src/content/contentEngine.test.ts",
+      "sha256": "1fd08983e5ba7a2dbd599612395b167100c1718763b97534a4335a5cef87f30a"
+    },
+    {
+      "path": "src/content/contracts.ts",
+      "sha256": "d8d2bb755f2116a888a1313b0b568fabe3ea99747773980b5ff1c23736ef8a2a"
+    },
+    {
+      "path": "src/content/evidence.ts",
+      "sha256": "5e964baa5f76293177c791ad198cc67eaac422d8def693765c438158e9041cad"
+    },
+    {
+      "path": "src/content/familiarity.ts",
+      "sha256": "e3e9a2186af8562f7368cfd62f8f1378f6b759350397b67f2c395a101b9707bb"
+    },
+    {
+      "path": "src/content/fixtures.ts",
+      "sha256": "0eaa7df532e6332569084f7e903cdb945558c90a88e4f9832550acf8ea5b60d5"
+    },
+    {
+      "path": "src/content/followup.ts",
+      "sha256": "09f4b419c09afc206097bc729fa315e8a8ece81d981a29d16184bc18de0d8a0f"
+    },
+    {
+      "path": "src/content/history.ts",
+      "sha256": "fa7ae8f46298ef7bb94536917127f06ebde1494cc41ed877bc28b121ac88148c"
+    },
+    {
+      "path": "src/content/index.ts",
+      "sha256": "efe2c3ed38d84b0bf3fcaf96e7d20f2531f7e212549d92e1b61d8abf78156f2a"
+    },
+    {
+      "path": "src/content/insight.ts",
+      "sha256": "5bb00889442201b8979caaf0bae927b43db357557e5b747e58654eea5ca05d99"
+    },
+    {
+      "path": "src/content/recap.ts",
+      "sha256": "91eb5a31608007d21cbbb25d5224376b4095b216c5d562fa20af4d803966114d"
+    },
+    {
+      "path": "src/content/safety.test.ts",
+      "sha256": "e70eb702a3f42104b8a55ab993128cf305c7beb050b81250852ce8e4878f104c"
+    },
+    {
+      "path": "src/content/safety.ts",
+      "sha256": "76eefb4ce8fed0ed26f710907405142649b4f76a4ad55aff609cb687d0f729c1"
+    },
+    {
+      "path": "src/content/scoring.ts",
+      "sha256": "ba3051ef3ca3b5b29c408890ec30589b2e229efebcb8978b1abd358c63dea464"
+    },
+    {
+      "path": "src/content/shouldSpeak.ts",
+      "sha256": "70d736bd42f0a182164384a3c8ef8a3777feb5004c9a3e2bf2be3834463c3e5b"
+    },
+    {
+      "path": "src/content/signals.ts",
+      "sha256": "f4f6be2ec5a7821e3e748325f33f01697a38dbc9010ac9a20ab50db3c23ecd4a"
+    },
+    {
+      "path": "src/content/taxonomy.ts",
+      "sha256": "b48f99fe6cb76811c5aa925bd8109f2e37d7cd2cc27dca1838f3e5760447a2b4"
+    },
+    {
+      "path": "src/content/tonight.ts",
+      "sha256": "d8a90258f0f9c4f01a04be4410aca4d396975e84406e4f37d0dd1677c192ef29"
+    },
+    {
+      "path": "src/content/voice.test.ts",
+      "sha256": "664f9fe71c7a26f53ebcd382696b4e2825e136d21490bb57415566b2e0714c0a"
+    },
+    {
+      "path": "src/content/voice/followupLines.ts",
+      "sha256": "8510f82d6f40398c2b8458f7f486cb2cb166d12103555f8ab941980bb4d09f35"
+    },
+    {
+      "path": "src/content/voice/index.ts",
+      "sha256": "863fd843698aa894caa3745e9a085673b59c876cc9bba6e6a65c659c8855a664"
+    },
+    {
+      "path": "src/content/voice/recapLines.ts",
+      "sha256": "677fd21ca8b44f2752ea27e135dbd9b74a37ec81a6d667f3cd177e2b6f0965eb"
+    },
+    {
+      "path": "src/content/voice/rules.ts",
+      "sha256": "4c036c24be3fd58812685de00533d6961584b2368a4949666e07d296b8492355"
+    },
+    {
+      "path": "src/content/voice/template.ts",
+      "sha256": "b3ea569dc7b06a200ca7c84a7bb8bad90ee88011e564f9dec9127bce35009163"
+    },
+    {
+      "path": "src/content/voice/tonightLines.ts",
+      "sha256": "c9ebae8399738fb1d28bf1ad9e8934eb67470ac735b20b577d38e14c6f423a7d"
+    },
+    {
+      "path": "src/contentIntegration/contracts.ts",
+      "sha256": "e1962676b3dcc3ad4d2214210d0ec30f22ba2859dab0945e9bcb32e6295a05d8"
+    },
+    {
+      "path": "src/contentIntegration/engine.ts",
+      "sha256": "102737285fa59dc872d27c426c32f538b05489d4a646fa587a09791b7d0a1a1f"
+    },
+    {
+      "path": "src/drinkingStyle/contracts.ts",
+      "sha256": "9308d7e18d83ee2e4cbde7d241eb7ae67b88a179929f856019084fee878efa40"
+    },
+    {
+      "path": "src/drinkingStyle/publicationPolicy.ts",
+      "sha256": "2c6f2f93cbbf3c517b50447f15ad0f6198bd73fc00534de9fd9eccd25191e5b2"
+    },
+    {
+      "path": "src/entitlement/capabilities.ts",
+      "sha256": "08f552b79d00c9ad9b11f0777757682be4a4dfd307a93c2832a05a5718251cf6"
+    },
+    {
+      "path": "src/entitlement/costAudience.ts",
+      "sha256": "1fb5b449f771464817fcd5ed8910d1b165b4a4d68a05e048fb291c897e046cb4"
+    },
+    {
+      "path": "src/entitlement/estimateSource.ts",
+      "sha256": "d36c7be6527b15a340f41a4a2ceb421d38a99b890d508ccdf142cf0a72d10554"
+    },
+    {
+      "path": "src/entitlement/featureGate.ts",
+      "sha256": "49abc56a8de84ac9a501ed508d8519e2c1e78dc9929d25531e651af7f3a9fd61"
+    },
+    {
+      "path": "src/entitlement/index.ts",
+      "sha256": "892ee7992f7ac65ea4d890e82273c1d51340f9934fd57c0584aed50e871b9fc7"
+    },
+    {
+      "path": "src/entitlement/personalDrinkingProfile.ts",
+      "sha256": "e6238a620a688ca0d9d14d58816a9f6ee0d56a09f7bab5fbc66611cbcd830e6d"
+    },
+    {
+      "path": "src/entitlement/personalInsights.ts",
+      "sha256": "4a059f280e2f14060eea13ee4b3ab59a3c252c8985cbeeb820a176e3ec045c79"
+    },
+    {
+      "path": "src/entitlement/plans.ts",
+      "sha256": "6a8b6ee537c8d0f450d25d41d9a229bfb982e62a8996046745ef0c857f34feef"
+    },
+    {
+      "path": "src/entitlement/pricing.ts",
+      "sha256": "fc659cb299bf60d16e4db6d35ab4f4f0dbc395c133b99b6d431db8ea1d68d48b"
+    },
+    {
+      "path": "src/entitlement/productBoundary.ts",
+      "sha256": "eb9801b56a4497e8db5c814ac5b7adead11b41af2517845978912dc76898348e"
+    },
+    {
+      "path": "src/entitlement/providers.ts",
+      "sha256": "f6e07c8756f64a24aec34af85ab5294a0d0f54c92451e62244f531117e7a513a"
+    },
+    {
+      "path": "src/games/core/contracts.ts",
+      "sha256": "bd82ae8077a228ba215597327ef028abbf7a30a21ef2c83d16e8990371a3ffe8"
+    },
+    {
+      "path": "src/games/measurement/bridge.ts",
+      "sha256": "8a2304a4555c007667707f82a6fc83bd5fe91c27d52791dea6acbf626f545756"
+    },
+    {
+      "path": "src/games/measurement/contracts.ts",
+      "sha256": "e15867c936cf83bee8cd34723172b9aa2dd70b5acad7158d8f83924ea57f805d"
+    },
+    {
+      "path": "src/intake/catalogFamily.ts",
+      "sha256": "09232bd08cf20b2a8c11aa2dbeb5078eacc771adbee9613a1a1169be5126c7d7"
+    },
+    {
+      "path": "src/intake/confirmation.ts",
+      "sha256": "b336f0ae6be33faeccd057b738326587b2c6f815997c3b4ac257355e3b3bee1c"
+    },
+    {
+      "path": "src/intake/confirmed.ts",
+      "sha256": "b9b05f1a07f891e2ea84393466be612c668f245bf55bae94892179d6032f7bc5"
+    },
+    {
+      "path": "src/intake/customRecipe.ts",
+      "sha256": "e0e70282eea2b35b3f2cf6952bcd249aac6598cdb593648230aafd9d1a387597"
+    },
+    {
+      "path": "src/intake/evidence.ts",
+      "sha256": "d6a89c4f277a00fd8f1409f8238c84902788af8b3ab472427c0a616a04981d4d"
+    },
+    {
+      "path": "src/intake/metadataTrust.ts",
+      "sha256": "45603bda450883bebfc110174c4dd26bc23c521cf34f6afc607b4eb9b8e7134f"
+    },
+    {
+      "path": "src/intake/normalized.test.ts",
+      "sha256": "03b8e91403e4d2e0ebd4ca847564589b2d541a58c48f5120bc674e6702f6e97f"
+    },
+    {
+      "path": "src/intake/normalized.ts",
+      "sha256": "079299501632b84dd7d6149f4ba9b2f55d13bef330646a71b62fed9cf596630d"
+    },
+    {
+      "path": "src/intake/packageText.ts",
+      "sha256": "0b3490b9778177645e2aa85960fca1343dab27636c73e0a14505dc01192b8293"
+    },
+    {
+      "path": "src/intake/printed.ts",
+      "sha256": "262ce12efe782e1c9c70f6c32da0f6e98a041690882c89576bba8dda9af0d9dc"
+    },
+    {
+      "path": "src/intake/productReview.ts",
+      "sha256": "3da4e337a90fbb51817960b4503f11b2856021fbe9b7804464d1049c450cf800"
+    },
+    {
+      "path": "src/intake/products.ts",
+      "sha256": "257804860348f2b7eecdc80f0e62f84f05c3a4a218e15d42f52bf44489c71faf"
+    },
+    {
+      "path": "src/intake/recipeMath.ts",
+      "sha256": "a558411ead7f1b3c22c80de4e0567fb7b1b2543fc9435dedcae825375fc76f6e"
+    },
+    {
+      "path": "src/intake/recipes.ts",
+      "sha256": "74fe3b7da576682435cacfcf36c99e468c454d2af5959e6cabbdce0e9d1ec87d"
+    },
+    {
+      "path": "src/intake/world.ts",
+      "sha256": "354b1fc628dc080e3bf1bd5540b42a53d52eab8ae1aed7df44978b56a9cbecf5"
+    },
+    {
+      "path": "src/intake/worldContract.ts",
+      "sha256": "54f5eb0358845ac61a97eef63be42226892a9a57ee14f3fa32b849cb1a76427c"
+    },
+    {
+      "path": "src/knowledge/contracts.ts",
+      "sha256": "090f9fbc9e51add52f1ea6f410d5db63c458a1d38d4cea288e3c46e903d50c0f"
+    },
+    {
+      "path": "src/knowledge/normalization.ts",
+      "sha256": "74ee05a6adc411cc43277d747d4355183934c83cab23f587b962e8e7062054ea"
+    },
+    {
+      "path": "src/lib/schemas.ts",
+      "sha256": "c9e8b43fe401f03df620b736f0b5445c59d4f75892ad97113518d0efa3b4f31d"
+    },
+    {
+      "path": "src/personalCalibration/model.ts",
+      "sha256": "9d065f8e4f32c9f8da1d0864010ecd745ca24ceda90b4653a42e3f91c02f0060"
+    },
+    {
+      "path": "src/productV1/contracts.ts",
+      "sha256": "478620c077ac04a434630b80b0239bc8def3577b45e91a67325ecdd61d751e23"
+    },
+    {
+      "path": "src/runtime/runtimeId.ts",
+      "sha256": "d31507019065d4f7b0d766774b5e6e89250377acb78d93d3b4c4d5514964921b"
+    },
+    {
+      "path": "src/runtime/runtimeId.test.ts",
+      "sha256": "6e557e15a077f04e5ea3386546a00426bdeb7bd7e3f480f57f5947ae405fe579"
+    }
+  ],
+  "screenshots": {
+    "source": "https://mellowtonight.app/",
+    "retrieved": "2026-10-23",
+    "asset_directory": "/assets/beta-20260924/",
+    "records": "Illustrative records; Personal Model is an internal Premium preview."
+  },
+  "adaptations": [
+    {
+      "path": "src/runtime/runtimeId.ts",
+      "change": "Narrow the getRandomValues generic to ArrayBufferView (remove null) for standalone DOM/Node type compatibility. No executable code changes.",
+      "export_sha256": "e562ffddc6c591dd6984793b76aecfbba6d259690e397fda5855307b69c859b2"
+    }
+  ]
+}

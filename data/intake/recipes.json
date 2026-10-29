@@ -1,0 +1,5419 @@
+{
+  "version": "recipe-world-v1",
+  "license": "MIT factual subset; original Mellow priors",
+  "recipes": [
+    {
+      "id": "alexander",
+      "name": "Alexander",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/alexander/data.json",
+      "upstreamReference": "https://iba-world.com/alexander/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "cognac",
+              "name": "Cognac",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "creme-de-cacao-dark",
+              "name": "Crème de Cacao (Dark)",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 21.25,
+                "max": 28.749999999999996
+              },
+              "referenceMl": 30,
+              "referenceAbv": 25,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cream",
+              "name": "Cream",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "amaretto-sour-jeffrey-morgenthaler",
+      "name": "Amaretto Sour (Jeffrey Morgenthaler)",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/amaretto-sour-jeffrey-morgenthaler/data.json",
+      "upstreamReference": "https://jeffreymorgenthaler.com/i-make-the-best-amaretto-sour-in-the-world/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "amaretto",
+              "name": "Amaretto",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 20.4,
+                "max": 27.599999999999998
+              },
+              "referenceMl": 45,
+              "referenceAbv": 24,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cask-proof-whiskey",
+              "name": "Cask-Proof Whiskey",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 52.5,
+                "max": 65
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 55,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 2.5,
+                "max": 5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 5,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 barspoon; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "egg-white",
+              "name": "Egg White",
+              "ml": {
+                "min": 0,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "amaretto-sour",
+      "name": "Amaretto Sour",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/amaretto-sour/data.json",
+      "upstreamReference": null,
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "amaretto",
+              "name": "Amaretto",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 20.4,
+                "max": 27.599999999999998
+              },
+              "referenceMl": 60,
+              "referenceAbv": 24,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "angostura-aromatic-bitters",
+              "name": "Angostura aromatic bitters",
+              "ml": {
+                "min": 0.4,
+                "max": 1
+              },
+              "abv": {
+                "min": 42.2,
+                "max": 54.7
+              },
+              "referenceMl": 0.7,
+              "referenceAbv": 44.7,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 dash; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "egg-white",
+              "name": "Egg White",
+              "ml": {
+                "min": 0,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        },
+        {
+          "id": "bourbon-fortified",
+          "name": "Bourbon-fortified variation",
+          "ingredients": [
+            {
+              "id": "amaretto",
+              "name": "Amaretto",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 20.4,
+                "max": 27.599999999999998
+              },
+              "referenceMl": 45,
+              "referenceAbv": 24,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cask-proof-whiskey",
+              "name": "Cask-Proof Whiskey",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 52.5,
+                "max": 65
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 55,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 2.5,
+                "max": 5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 5,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 barspoon; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "egg-white",
+              "name": "Egg White",
+              "ml": {
+                "min": 0,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "americano",
+      "name": "Americano",
+      "aliases": [],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/americano/data.json",
+      "upstreamReference": "https://iba-world.com/americano/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "campari",
+              "name": "Campari",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 20.5,
+                "max": 28.5
+              },
+              "referenceMl": 30,
+              "referenceAbv": 25,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "sweet-vermouth",
+              "name": "Sweet Vermouth",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 30,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "club-soda",
+              "name": "Club soda",
+              "ml": {
+                "min": 30,
+                "max": 90
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 60,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 topup; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "aperol-spritz",
+      "name": "Aperol Spritz",
+      "aliases": [],
+      "glassId": "WINE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/aperol-spritz/data.json",
+      "upstreamReference": "https://iba-world.com/spritz/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "prosecco",
+              "name": "Prosecco",
+              "ml": {
+                "min": 90,
+                "max": 90
+              },
+              "abv": {
+                "min": 9.35,
+                "max": 12.649999999999999
+              },
+              "referenceMl": 90,
+              "referenceAbv": 11,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "aperol",
+              "name": "Aperol",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 9.35,
+                "max": 12.649999999999999
+              },
+              "referenceMl": 60,
+              "referenceAbv": 11,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "club-soda",
+              "name": "Club soda",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "aviation",
+      "name": "Aviation",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/aviation/data.json",
+      "upstreamReference": "https://iba-world.com/692/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "maraschino",
+              "name": "Maraschino",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 27.2,
+                "max": 36.8
+              },
+              "referenceMl": 15,
+              "referenceAbv": 32,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "creme-de-violette",
+              "name": "Crème de Violette",
+              "ml": {
+                "min": 2.5,
+                "max": 5
+              },
+              "abv": {
+                "min": 13.6,
+                "max": 18.4
+              },
+              "referenceMl": 5,
+              "referenceAbv": 16,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 barspoon; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "bees-knees",
+      "name": "Bee’s Knees",
+      "aliases": [
+        "Bee’s Knees",
+        "Bee's Knees"
+      ],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/bees-knees/data.json",
+      "upstreamReference": "https://iba-world.com/bees-knees/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "honey-syrup",
+              "name": "Honey Syrup",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orange-juice",
+              "name": "Orange juice",
+              "ml": {
+                "min": 0,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "bellini",
+      "name": "Bellini",
+      "aliases": [],
+      "glassId": "FLUTE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/bellini/data.json",
+      "upstreamReference": "https://iba-world.com/bellini/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "prosecco",
+              "name": "Prosecco",
+              "ml": {
+                "min": 100,
+                "max": 100
+              },
+              "abv": {
+                "min": 9.35,
+                "max": 12.649999999999999
+              },
+              "referenceMl": 100,
+              "referenceAbv": 11,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "white-peach-puree",
+              "name": "White Peach Puree",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 50,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "black-russian",
+      "name": "Black Russian",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/black-russian/data.json",
+      "upstreamReference": "https://iba-world.com/black-russian/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "coffee-liqueur",
+              "name": "Coffee liqueur",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 17.0,
+                "max": 23.0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 20,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "bloody-mary",
+      "name": "Bloody Mary",
+      "aliases": [],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/bloody-mary/data.json",
+      "upstreamReference": "https://iba-world.com/bloody-mary/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "tomato-juice",
+              "name": "Tomato juice",
+              "ml": {
+                "min": 90,
+                "max": 90
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 90,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "worcestershire-sauce",
+              "name": "Worcestershire Sauce",
+              "ml": {
+                "min": 0.8,
+                "max": 2
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "tabasco",
+              "name": "Tabasco",
+              "ml": {
+                "min": 0.4,
+                "max": 1
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0.7,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 dash; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "pepper",
+              "name": "Pepper",
+              "ml": {
+                "min": 0,
+                "max": 0
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 pinch; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "salt",
+              "name": "Salt",
+              "ml": {
+                "min": 0,
+                "max": 0
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 pinch; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "boulevardier",
+      "name": "Boulevardier",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/boulevardier/data.json",
+      "upstreamReference": "https://iba-world.com/boulevardier/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "bourbon-whiskey",
+              "name": "Bourbon Whiskey",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "campari",
+              "name": "Campari",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 20.5,
+                "max": 28.5
+              },
+              "referenceMl": 30,
+              "referenceAbv": 25,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "sweet-vermouth",
+              "name": "Sweet Vermouth",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 30,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "bramble",
+      "name": "Bramble",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/bramble/data.json",
+      "upstreamReference": "https://iba-world.com/bramble/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 50,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 25,
+                "max": 25
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 25,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 12,
+                "max": 12
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 12,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "creme-de-mure",
+              "name": "Crème de mûre",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 39.8,
+                "max": 52.3
+              },
+              "referenceMl": 15,
+              "referenceAbv": 42.3,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "caipirinha",
+      "name": "Caipirinha",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/caipirinha/data.json",
+      "upstreamReference": "https://iba-world.com/caipirinha/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "cachaca",
+              "name": "Cachaça",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime",
+              "name": "Lime",
+              "ml": {
+                "min": 20,
+                "max": 40
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30.0,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "4 wedge; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "sugar",
+              "name": "Sugar",
+              "ml": {
+                "min": 8,
+                "max": 20
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 12,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "4 barspoon; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "champagne-cocktail",
+      "name": "Champagne Cocktail",
+      "aliases": [],
+      "glassId": "FLUTE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/champagne-cocktail/data.json",
+      "upstreamReference": "https://iba-world.com/champagne-cocktail/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "champagne",
+              "name": "Champagne",
+              "ml": {
+                "min": 90,
+                "max": 90
+              },
+              "abv": {
+                "min": 10.2,
+                "max": 13.799999999999999
+              },
+              "referenceMl": 90,
+              "referenceAbv": 12,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cognac",
+              "name": "Cognac",
+              "ml": {
+                "min": 10,
+                "max": 10
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 10,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "angostura-aromatic-bitters",
+              "name": "Angostura aromatic bitters",
+              "ml": {
+                "min": 0.8,
+                "max": 2
+              },
+              "abv": {
+                "min": 42.2,
+                "max": 54.7
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 44.7,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "grand-marnier",
+              "name": "Grand Marnier",
+              "ml": {
+                "min": 0,
+                "max": 0.08
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 0.05,
+              "referenceAbv": 40,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 drops; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "sugar",
+              "name": "Sugar",
+              "ml": {
+                "min": 2,
+                "max": 5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 3,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 cube; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "corpse-reviver-2",
+      "name": "Corpse Reviver №2",
+      "aliases": [
+        "Corpse Reviver No. 2",
+        "Corpse Reviver #2",
+        "Corpse Reviver No 2"
+      ],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/corpse-reviver-2/data.json",
+      "upstreamReference": "https://iba-world.com/corpse-reviver-2/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cointreau",
+              "name": "Cointreau",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lillet-blanc",
+              "name": "Lillet Blanc",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 14.45,
+                "max": 19.549999999999997
+              },
+              "referenceMl": 30,
+              "referenceAbv": 17,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "absinthe",
+              "name": "Absinthe",
+              "ml": {
+                "min": 0.4,
+                "max": 1
+              },
+              "abv": {
+                "min": 52.5,
+                "max": 65
+              },
+              "referenceMl": 0.7,
+              "referenceAbv": 55,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 dash; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "cosmopolitan",
+      "name": "Cosmopolitan",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/cosmopolitan/data.json",
+      "upstreamReference": "https://iba-world.com/cosmopolitan/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 40,
+                "max": 40
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 40,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cointreau",
+              "name": "Cointreau",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 15,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cranberry-juice",
+              "name": "Cranberry juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "cuba-libre",
+      "name": "Cuba Libre",
+      "aliases": [],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/cuba-libre/data.json",
+      "upstreamReference": "https://iba-world.com/cuba-libre/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "light-rum",
+              "name": "Light Rum",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 50,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cola",
+              "name": "Cola",
+              "ml": {
+                "min": 120,
+                "max": 120
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 120,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 10,
+                "max": 10
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 10,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "daiquiri",
+      "name": "Daiquiri",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/daiquiri/data.json",
+      "upstreamReference": "https://iba-world.com/daiquiri/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "light-rum",
+              "name": "Light Rum",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "dark-n-stormy",
+      "name": "Dark ‘n’ stormy",
+      "aliases": [
+        "Dark 'n' Stormy",
+        "Dark and Stormy"
+      ],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/dark-n-stormy/data.json",
+      "upstreamReference": "https://iba-world.com/dark-n-stormy/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "dark-rum",
+              "name": "Dark Rum",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "ginger-beer",
+              "name": "Ginger beer",
+              "ml": {
+                "min": 100,
+                "max": 100
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 100,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 0,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "dirty-martini",
+      "name": "Dirty Martini",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/dirty-martini/data.json",
+      "upstreamReference": null,
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "dry-vermouth",
+              "name": "Dry Vermouth",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "olive-brine",
+              "name": "Olive brine",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "espresso-martini",
+      "name": "Espresso Martini",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/espresso-martini/data.json",
+      "upstreamReference": "https://iba-world.com/espresso-martini/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 50,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "coffee-liqueur",
+              "name": "Coffee liqueur",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 17.0,
+                "max": 23.0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 20,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 10,
+                "max": 10
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 10,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "espresso",
+              "name": "Espresso",
+              "ml": {
+                "min": 20,
+                "max": 40
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 strong; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "french-75",
+      "name": "French 75",
+      "aliases": [],
+      "glassId": "FLUTE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/french-75/data.json",
+      "upstreamReference": "https://iba-world.com/french-75/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "champagne",
+              "name": "Champagne",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 10.2,
+                "max": 13.799999999999999
+              },
+              "referenceMl": 60,
+              "referenceAbv": 12,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "french-connection",
+      "name": "French Connection",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/french-connection/data.json",
+      "upstreamReference": "https://iba-world.com/french-connection/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "cognac",
+              "name": "Cognac",
+              "ml": {
+                "min": 35,
+                "max": 35
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 35,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "amaretto",
+              "name": "Amaretto",
+              "ml": {
+                "min": 35,
+                "max": 35
+              },
+              "abv": {
+                "min": 20.4,
+                "max": 27.599999999999998
+              },
+              "referenceMl": 35,
+              "referenceAbv": 24,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "gimlet",
+      "name": "Gimlet",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/gimlet/data.json",
+      "upstreamReference": "https://www.acouplecooks.com/gin-gimlet-cocktail/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "gin-tonic",
+      "name": "Gin & Tonic",
+      "aliases": [
+        "Gin and Tonic",
+        "G&T"
+      ],
+      "glassId": "WINE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/gin-tonic/data.json",
+      "upstreamReference": "https://www.acouplecooks.com/best-gin-and-tonic/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "tonic",
+              "name": "Tonic",
+              "ml": {
+                "min": 120,
+                "max": 120
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 120,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "grasshopper",
+      "name": "Grasshopper",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/grasshopper/data.json",
+      "upstreamReference": "https://iba-world.com/grasshopper/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "creme-de-cacao-white",
+              "name": "Crème de Cacao (White)",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 21.25,
+                "max": 28.749999999999996
+              },
+              "referenceMl": 20,
+              "referenceAbv": 25,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "creme-de-menthe",
+              "name": "Crème de menthe",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 17.0,
+                "max": 23.0
+              },
+              "referenceMl": 20,
+              "referenceAbv": 20,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cream",
+              "name": "Cream",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 20,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "hugo-spritz",
+      "name": "Hugo Spritz",
+      "aliases": [],
+      "glassId": "WINE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/hugo-spritz/data.json",
+      "upstreamReference": "https://en.wikipedia.org/wiki/Hugo_(cocktail)?useskin=vector",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "prosecco",
+              "name": "Prosecco",
+              "ml": {
+                "min": 90,
+                "max": 90
+              },
+              "abv": {
+                "min": 9.35,
+                "max": 12.649999999999999
+              },
+              "referenceMl": 90,
+              "referenceAbv": 11,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "st-germain",
+              "name": "St-Germain",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 17.0,
+                "max": 23.0
+              },
+              "referenceMl": 60,
+              "referenceAbv": 20,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "club-soda",
+              "name": "Club soda",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "irish-coffee",
+      "name": "Irish Coffee",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/irish-coffee/data.json",
+      "upstreamReference": "https://iba-world.com/irish-coffee/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "irish-whiskey",
+              "name": "Irish whiskey",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 50,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "coffee",
+              "name": "Coffee",
+              "ml": {
+                "min": 120,
+                "max": 120
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 120,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cream",
+              "name": "Cream",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 50,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "sugar",
+              "name": "Sugar",
+              "ml": {
+                "min": 2,
+                "max": 5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 3,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 teaspoon; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "john-collins",
+      "name": "John Collins",
+      "aliases": [],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/john-collins/data.json",
+      "upstreamReference": "https://iba-world.com/john-collins/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "club-soda",
+              "name": "Club soda",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 60,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "last-word",
+      "name": "Last word",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/last-word/data.json",
+      "upstreamReference": "https://iba-world.com/last-word/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "green-chartreuse",
+              "name": "Green Chartreuse",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 52.5,
+                "max": 65
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 55,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "maraschino",
+              "name": "Maraschino",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 27.2,
+                "max": 36.8
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 32,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "lemon-drop-martini",
+      "name": "Lemon drop Martini",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/lemon-drop-martini/data.json",
+      "upstreamReference": "https://iba-world.com/lemon-drop-martini/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "triple-sec",
+              "name": "Triple Sec",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 20,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "long-island-ice-tea",
+      "name": "Long Island Ice Tea",
+      "aliases": [
+        "Long Island Iced Tea",
+        "LIIT"
+      ],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/long-island-ice-tea/data.json",
+      "upstreamReference": "https://iba-world.com/long-island-ice-tea/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 15,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "tequila-blanco",
+              "name": "Tequila Blanco",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 15,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "light-rum",
+              "name": "Light Rum",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 15,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 15,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cointreau",
+              "name": "Cointreau",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 15,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 20,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cola",
+              "name": "Cola",
+              "ml": {
+                "min": 30,
+                "max": 90
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 60,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 topup; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "mai-tai",
+      "name": "Mai-Tai",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/mai-tai/data.json",
+      "upstreamReference": "https://iba-world.com/mai-tai/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "dark-rum",
+              "name": "Dark Rum",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "rhum-agricole",
+              "name": "Rhum agricole",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 47.5,
+                "max": 60
+              },
+              "referenceMl": 30,
+              "referenceAbv": 50,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orange-curacao",
+              "name": "Orange Curaçao",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 17.0,
+                "max": 23.0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 20,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orgeat-syrup",
+              "name": "Orgeat Syrup",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 7.5,
+                "max": 7.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 7.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "manhattan",
+      "name": "Manhattan",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/manhattan/data.json",
+      "upstreamReference": "https://iba-world.com/manhattan/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "rye-whiskey",
+              "name": "Rye whiskey",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "sweet-vermouth",
+              "name": "Sweet Vermouth",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 30,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "angostura-aromatic-bitters",
+              "name": "Angostura aromatic bitters",
+              "ml": {
+                "min": 0.8,
+                "max": 2
+              },
+              "abv": {
+                "min": 42.2,
+                "max": 54.7
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 44.7,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dash; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "margarita",
+      "name": "Margarita",
+      "aliases": [],
+      "glassId": "MARGARITA",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/margarita/data.json",
+      "upstreamReference": "https://iba-world.com/margarita/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "tequila-blanco",
+              "name": "Tequila Blanco",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "triple-sec",
+              "name": "Triple Sec",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "agave-syrup",
+              "name": "Agave Syrup",
+              "ml": {
+                "min": 0,
+                "max": 5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 5,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 barspoon; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "martini",
+      "name": "Martini",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/martini/data.json",
+      "upstreamReference": "https://iba-world.com/dry-martini/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "dry-vermouth",
+              "name": "Dry Vermouth",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 30,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orange-bitters",
+              "name": "Orange bitters",
+              "ml": {
+                "min": 0,
+                "max": 2
+              },
+              "abv": {
+                "min": 23.8,
+                "max": 32.199999999999996
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 28,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        },
+        {
+          "id": "3-to-1",
+          "name": "3:1 gin / dry vermouth",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "dry-vermouth",
+              "name": "Dry Vermouth",
+              "ml": {
+                "min": 20.0,
+                "max": 20.0
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 20.0,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orange-bitters",
+              "name": "Orange bitters",
+              "ml": {
+                "min": 0,
+                "max": 2
+              },
+              "abv": {
+                "min": 23.8,
+                "max": 32.199999999999996
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 28,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Mellow-authored ratio variant"
+        },
+        {
+          "id": "5-to-1",
+          "name": "5:1 gin / dry vermouth",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "dry-vermouth",
+              "name": "Dry Vermouth",
+              "ml": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 12.0,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orange-bitters",
+              "name": "Orange bitters",
+              "ml": {
+                "min": 0,
+                "max": 2
+              },
+              "abv": {
+                "min": 23.8,
+                "max": 32.199999999999996
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 28,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Mellow-authored ratio variant"
+        },
+        {
+          "id": "10-to-1",
+          "name": "10:1 gin / dry vermouth",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "dry-vermouth",
+              "name": "Dry Vermouth",
+              "ml": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 6.0,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orange-bitters",
+              "name": "Orange bitters",
+              "ml": {
+                "min": 0,
+                "max": 2
+              },
+              "abv": {
+                "min": 23.8,
+                "max": 32.199999999999996
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 28,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Mellow-authored ratio variant"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "mimosa",
+      "name": "Mimosa",
+      "aliases": [],
+      "glassId": "FLUTE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/mimosa/data.json",
+      "upstreamReference": "https://iba-world.com/mimosa/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "orange-juice",
+              "name": "Orange juice",
+              "ml": {
+                "min": 75,
+                "max": 75
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 75,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "prosecco",
+              "name": "Prosecco",
+              "ml": {
+                "min": 75,
+                "max": 75
+              },
+              "abv": {
+                "min": 9.35,
+                "max": 12.649999999999999
+              },
+              "referenceMl": 75,
+              "referenceAbv": 11,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "mint-julep",
+      "name": "Mint Julep",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/mint-julep/data.json",
+      "upstreamReference": "https://iba-world.com/mint-julep/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "bourbon-whiskey",
+              "name": "Bourbon Whiskey",
+              "ml": {
+                "min": 60,
+                "max": 75
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "mint",
+              "name": "Mint",
+              "ml": {
+                "min": 0,
+                "max": 0
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "4 sprigs; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "mojito",
+      "name": "Mojito",
+      "aliases": [],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/mojito/data.json",
+      "upstreamReference": "https://iba-world.com/mojito/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "light-rum",
+              "name": "Light Rum",
+              "ml": {
+                "min": 45,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "mint",
+              "name": "Mint",
+              "ml": {
+                "min": 0,
+                "max": 0
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "6 sprigs; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "sugar",
+              "name": "Sugar",
+              "ml": {
+                "min": 4,
+                "max": 10
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 6,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 tsp; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "club-soda",
+              "name": "Club soda",
+              "ml": {
+                "min": 30,
+                "max": 90
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 60,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 topup; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "moscow-mule",
+      "name": "Moscow Mule",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/moscow-mule/data.json",
+      "upstreamReference": "https://iba-world.com/moscow-mule/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "ginger-beer",
+              "name": "Ginger beer",
+              "ml": {
+                "min": 120,
+                "max": 120
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 120,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "negroni",
+      "name": "Negroni",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/negroni/data.json",
+      "upstreamReference": "https://iba-world.com/negroni/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "campari",
+              "name": "Campari",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 20.5,
+                "max": 28.5
+              },
+              "referenceMl": 30,
+              "referenceAbv": 25,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "sweet-vermouth",
+              "name": "Sweet Vermouth",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 30,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "old-fashioned",
+      "name": "Old Fashioned",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/old-fashioned/data.json",
+      "upstreamReference": "https://iba-world.com/old-fashioned/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "bourbon-whiskey",
+              "name": "Bourbon Whiskey",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 2.5,
+                "max": 5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 5,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 barspoon; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "angostura-aromatic-bitters",
+              "name": "Angostura aromatic bitters",
+              "ml": {
+                "min": 0.8,
+                "max": 2
+              },
+              "abv": {
+                "min": 42.2,
+                "max": 54.7
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 44.7,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "orange-bitters",
+              "name": "Orange bitters",
+              "ml": {
+                "min": 0,
+                "max": 1
+              },
+              "abv": {
+                "min": 23.8,
+                "max": 32.199999999999996
+              },
+              "referenceMl": 0.7,
+              "referenceAbv": 28,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "paloma",
+      "name": "Paloma",
+      "aliases": [],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/paloma/data.json",
+      "upstreamReference": "https://www.epicurious.com/recipes/food/views/paloma-cocktail",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "tequila-blanco",
+              "name": "Tequila Blanco",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "grapefruit-soda",
+              "name": "Grapefruit soda",
+              "ml": {
+                "min": 120,
+                "max": 120
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 120,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "salt",
+              "name": "Salt",
+              "ml": {
+                "min": 0,
+                "max": 0
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 pinch; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "paper-plane",
+      "name": "Paper Plane",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/paper-plane/data.json",
+      "upstreamReference": "https://iba-world.com/paper-plane/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "bourbon-whiskey",
+              "name": "Bourbon Whiskey",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "amaro-nonino",
+              "name": "Amaro Nonino",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 32.5,
+                "max": 45
+              },
+              "referenceMl": 30,
+              "referenceAbv": 35,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "aperol",
+              "name": "Aperol",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 9.35,
+                "max": 12.649999999999999
+              },
+              "referenceMl": 30,
+              "referenceAbv": 11,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "penicillin",
+      "name": "Penicillin",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/penicillin/data.json",
+      "upstreamReference": "https://iba-world.com/penicillin/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "scotch-whiskey",
+              "name": "Scotch whiskey",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "islay-scotch-whiskey",
+              "name": "Islay Scotch Whiskey",
+              "ml": {
+                "min": 7.5,
+                "max": 7.5
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 7.5,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "honey-syrup",
+              "name": "Honey Syrup",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "ginger",
+              "name": "Ginger",
+              "ml": {
+                "min": 0,
+                "max": 0
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 slices; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "pina-colada",
+      "name": "Piña Colada",
+      "aliases": [],
+      "glassId": "HURRICANE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/pina-colada/data.json",
+      "upstreamReference": "https://iba-world.com/pina-colada/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "light-rum",
+              "name": "Light Rum",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 50,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cream-of-coconut",
+              "name": "Cream of Coconut",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "pineapple-juice",
+              "name": "Pineapple juice",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 50,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.2,
+            "max": 0.65
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "pisco-sour",
+      "name": "Pisco Sour",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/pisco-sour/data.json",
+      "upstreamReference": "https://iba-world.com/pisco-sour/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "pisco",
+              "name": "Pisco",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 20,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "egg-white",
+              "name": "Egg White",
+              "ml": {
+                "min": 0,
+                "max": 0.08
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0.05,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 drops; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "rusty-nail",
+      "name": "Rusty Nail",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/rusty-nail/data.json",
+      "upstreamReference": "https://iba-world.com/rusty-nail/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "scotch-whiskey",
+              "name": "Scotch whiskey",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "drambuie",
+              "name": "Drambuie",
+              "ml": {
+                "min": 25,
+                "max": 25
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 25,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "sazerac",
+      "name": "Sazerac",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/sazerac/data.json",
+      "upstreamReference": "https://iba-world.com/sazerac/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "rye-whiskey",
+              "name": "Rye whiskey",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 7.5,
+                "max": 7.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 7.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "peychauds-bitters",
+              "name": "Peychauds Bitters",
+              "ml": {
+                "min": 0.8,
+                "max": 2
+              },
+              "abv": {
+                "min": 32.5,
+                "max": 45
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 35,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "absinthe",
+              "name": "Absinthe",
+              "ml": {
+                "min": 2.5,
+                "max": 5
+              },
+              "abv": {
+                "min": 52.5,
+                "max": 65
+              },
+              "referenceMl": 5,
+              "referenceAbv": 55,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 barspoon; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "sidecar",
+      "name": "Sidecar",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/sidecar/data.json",
+      "upstreamReference": "https://iba-world.com/sidecar/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "cognac",
+              "name": "Cognac",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 50,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "triple-sec",
+              "name": "Triple Sec",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 20,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 20,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "singapore-sling",
+      "name": "Singapore Sling",
+      "aliases": [],
+      "glassId": "HURRICANE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/singapore-sling/data.json",
+      "upstreamReference": "https://iba-world.com/singapore-sling/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cherry-heering",
+              "name": "Cherry heering",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 17.849999999999998,
+                "max": 24.15
+              },
+              "referenceMl": 15,
+              "referenceAbv": 21,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cointreau",
+              "name": "Cointreau",
+              "ml": {
+                "min": 7.5,
+                "max": 7.5
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 7.5,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "benedictine",
+              "name": "Bénédictine",
+              "ml": {
+                "min": 7.5,
+                "max": 7.5
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 7.5,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "grenadine-syrup",
+              "name": "Grenadine Syrup",
+              "ml": {
+                "min": 10,
+                "max": 10
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 10,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "angostura-aromatic-bitters",
+              "name": "Angostura aromatic bitters",
+              "ml": {
+                "min": 0.4,
+                "max": 1
+              },
+              "abv": {
+                "min": 42.2,
+                "max": 54.7
+              },
+              "referenceMl": 0.7,
+              "referenceAbv": 44.7,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 dash; original Mellow liquid-yield prior, not a measured conversion"
+            },
+            {
+              "id": "pineapple-juice",
+              "name": "Pineapple juice",
+              "ml": {
+                "min": 120,
+                "max": 120
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 120,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "tequila-sunrise",
+      "name": "Tequila Sunrise",
+      "aliases": [],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/tequila-sunrise/data.json",
+      "upstreamReference": "https://iba-world.com/tequila-sunrise/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "tequila-blanco",
+              "name": "Tequila Blanco",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orange-juice",
+              "name": "Orange juice",
+              "ml": {
+                "min": 90,
+                "max": 90
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 90,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "grenadine-syrup",
+              "name": "Grenadine Syrup",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "tommys-margarita",
+      "name": "Tommy’s Margarita",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/tommys-margarita/data.json",
+      "upstreamReference": "https://iba-world.com/tommys-margarita/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "tequila-blanco",
+              "name": "Tequila Blanco",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lime-juice",
+              "name": "Lime juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "agave-syrup",
+              "name": "Agave Syrup",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "vesper",
+      "name": "Vesper",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/vesper/data.json",
+      "upstreamReference": "https://iba-world.com/vesper/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 15,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lillet-blanc",
+              "name": "Lillet Blanc",
+              "ml": {
+                "min": 7.5,
+                "max": 7.5
+              },
+              "abv": {
+                "min": 14.45,
+                "max": 19.549999999999997
+              },
+              "referenceMl": 7.5,
+              "referenceAbv": 17,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "whiskey-sour",
+      "name": "Whiskey Sour",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/whiskey-sour/data.json",
+      "upstreamReference": "https://iba-world.com/whiskey-sour/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "bourbon-whiskey",
+              "name": "Bourbon Whiskey",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 25,
+                "max": 25
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 25,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 20,
+                "max": 20
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 20,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "egg-white",
+              "name": "Egg White",
+              "ml": {
+                "min": 0,
+                "max": 0.08
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 0.05,
+              "referenceAbv": 0,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "1 drops; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "white-lady",
+      "name": "White Lady",
+      "aliases": [],
+      "glassId": "COUPE",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/white-lady/data.json",
+      "upstreamReference": "https://iba-world.com/white-lady/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 45,
+                "max": 45
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 45,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "triple-sec",
+              "name": "Triple Sec",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 30,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 22.5,
+                "max": 22.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 22.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 0,
+                "max": 7.5
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 7.5,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "white-russian",
+      "name": "White Russian",
+      "aliases": [],
+      "glassId": "ROCKS",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/white-russian/data.json",
+      "upstreamReference": "https://www.sainsburysmagazine.co.uk/recipes/drinks/white-russian",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "coffee-liqueur",
+              "name": "Coffee liqueur",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 17.0,
+                "max": 23.0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 20,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cream",
+              "name": "Cream",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity."
+      ]
+    },
+    {
+      "id": "dry-martini",
+      "name": "Dry Martini",
+      "aliases": [],
+      "glassId": "MARTINI",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/martini/data.json",
+      "upstreamReference": "https://iba-world.com/dry-martini/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "6-to-1",
+          "name": "6:1 dry variation",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "dry-vermouth",
+              "name": "Dry Vermouth",
+              "ml": {
+                "min": 10,
+                "max": 10
+              },
+              "abv": {
+                "min": 14,
+                "max": 18
+              },
+              "referenceMl": 10,
+              "referenceAbv": 18,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "orange-bitters",
+              "name": "Orange bitters",
+              "ml": {
+                "min": 0,
+                "max": 2
+              },
+              "abv": {
+                "min": 23.8,
+                "max": 32.199999999999996
+              },
+              "referenceMl": 1.4,
+              "referenceAbv": 28,
+              "basis": "CURATED_CONVERSION",
+              "unitNote": "2 dashes; original Mellow liquid-yield prior, not a measured conversion"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.35
+          },
+          "basis": "Mellow-authored ratio variant"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity.",
+        "Mellow-authored named recipe variation; upstream source is the base recipe."
+      ]
+    },
+    {
+      "id": "tom-collins",
+      "name": "Tom Collins",
+      "aliases": [],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/john-collins/data.json",
+      "upstreamReference": "https://iba-world.com/john-collins/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "gin",
+              "name": "Gin",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 60,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "lemon-juice",
+              "name": "Lemon juice",
+              "ml": {
+                "min": 30,
+                "max": 30
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 30,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "simple-syrup",
+              "name": "Simple Syrup",
+              "ml": {
+                "min": 15,
+                "max": 15
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 15,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "club-soda",
+              "name": "Club soda",
+              "ml": {
+                "min": 60,
+                "max": 60
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 60,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0.15,
+            "max": 0.4
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity.",
+        "Mellow-authored named recipe variation; upstream source is the base recipe."
+      ]
+    },
+    {
+      "id": "rum-and-coke",
+      "name": "Rum & Coke",
+      "aliases": [
+        "Rum and Coke"
+      ],
+      "glassId": "HIGHBALL",
+      "source": "https://github.com/bar-assistant/data/blob/845431a46d739810f310dedf9f3f27b8d2e4b4b0/data/cocktails/cuba-libre/data.json",
+      "upstreamReference": "https://iba-world.com/cuba-libre/",
+      "sourceDate": "2026-09-10",
+      "variants": [
+        {
+          "id": "reference",
+          "name": "Reference recipe",
+          "ingredients": [
+            {
+              "id": "light-rum",
+              "name": "Light Rum",
+              "ml": {
+                "min": 50,
+                "max": 50
+              },
+              "abv": {
+                "min": 37.5,
+                "max": 50
+              },
+              "referenceMl": 50,
+              "referenceAbv": 40,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            },
+            {
+              "id": "cola",
+              "name": "Cola",
+              "ml": {
+                "min": 120,
+                "max": 120
+              },
+              "abv": {
+                "min": 0,
+                "max": 0
+              },
+              "referenceMl": 120,
+              "referenceAbv": 0,
+              "basis": "SOURCE_QUANTITY",
+              "unitNote": "ml"
+            }
+          ],
+          "dilution": {
+            "min": 0,
+            "max": 0.3
+          },
+          "basis": "Licensed ingredient quantities; strength, non-ml conversion and dilution remain priors"
+        }
+      ],
+      "assumptions": [
+        "Ingredient strength is a reference assumption, not the bottle at this bar.",
+        "Added meltwater / initial liquid volume; not empirically calibrated.",
+        "No claim to measured serving or universal IBA conformity.",
+        "Mellow-authored named recipe variation; upstream source is the base recipe."
+      ]
+    }
+  ]
+}

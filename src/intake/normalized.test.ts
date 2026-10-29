@@ -1,0 +1,6 @@
+import {it,expect} from 'vitest';
+import {defaultIntake,FAMILIES,intakeCommand,normalizedIntakeSchema,SERVINGS} from './normalized';
+it('all Free families normalize arbitrary ABV and actual amount without package substitution',()=>{for(const f of FAMILIES){const n={...defaultIntake(f),abv:53.27,actualConsumedMl:45,packageMl:1000};const input=intakeCommand(n,'test').input;expect(input.consumptionConfirmation).toEqual({abvPercent:53.27,consumedVolumeMl:45});expect(input.normalizedIntake.packageMl).toBe(1000);}});
+it('rejects missing, nonfinite and invalid required values',()=>{for(const patch of [{abv:null},{abv:NaN},{actualConsumedMl:0},{actualConsumedMl:undefined},{identity:''}])expect(normalizedIntakeSchema.safeParse({...defaultIntake('BEER'),...patch}).success).toBe(false);});
+it('wine and spirits have centralized nominal pour amounts, not bottle capacities',()=>{expect(SERVINGS.WINE.map(x=>x[1])).toEqual([100,150,200]);expect(SERVINGS.SPIRITS.map(x=>x[1])).toEqual([30,45,60]);});
+it('carries a user-confirmed catalog identity to downstream choice evidence',()=>{expect(intakeCommand({...defaultIntake('BEER','Corona Extra'),source:'SEARCH',productId:'catalog-corona'},'id').input.knowledgeDrinkId).toBe('catalog-corona');});
